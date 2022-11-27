@@ -36,7 +36,7 @@ img_array = np.array(img)                           #将图片转化为数组
 wc = WordCloud(
     background_color='white',
     mask=img_array,
-    font_path="fzse_gbk.ttf"                        #字体所在位置C:\windows\Fonts
+    font_path="微软雅黑.ttf"                      #字体所在位置C:\windows\Fonts
 )
 wc.generate_from_text(string)
 
